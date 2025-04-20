@@ -92,7 +92,7 @@ make zip
 # Copy the fuzzers over.
 for TARGET in $FUZZ_TARGETS
 do
-  cp -v ${TARGET} ${TARGET}_seed_corpus.zip $OUT/
+  cp -v ${TARGET} $OUT/
 done
 
 # Copy dictionary and options file to $OUT.
